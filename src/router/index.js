@@ -4,6 +4,9 @@ import BasicComponent from "@/components/BasicComponent";
 import LayoutComponent from "@/components/LayoutComponent";
 import NavComponent from "@/components/NavComponent";
 import FormComponent from "@/components/FormComponent";
+import ViewComponent from "@/components/ViewComponent";
+import ChartComponent from "@/components/ChartsComponent";
+import OtherComponent from "@/components/OtherComponent";
 Vue.use(Router);
 
 export default new Router({
@@ -28,6 +31,21 @@ export default new Router({
       path: "/form",
       name: "formComponent",
       component: FormComponent
+    },
+    {
+      path: "/view",
+      name: "viewComponent",
+      component: ViewComponent
+    },
+    {
+      path: "/charts",
+      name: "chartComponent",
+      component: ChartComponent
+    },
+    {
+      path: "/other",
+      name: "nameComponent",
+      component: OtherComponent
     }
   ]
 });

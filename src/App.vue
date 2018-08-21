@@ -7,6 +7,12 @@
     <router-link to="/nav">导航组件</router-link>
     <Divider type="vertical" />
     <router-link to="/form">表单组件</router-link>
+    <Divider type="vertical" />
+    <router-link to="/view">视图组件</router-link>
+    <Divider type="vertical" />
+    <router-link to="/charts">图表组件</router-link>
+    <Divider type="vertical" />
+    <router-link to="/other">其他组件</router-link>
     <transition name="fade">
       <router-view/>
     </transition>
